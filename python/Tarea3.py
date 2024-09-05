@@ -1,0 +1,12 @@
+nombre= (input("Ingrese su nombre: "))
+primer_parcial= int(input("Ingrese su nota del primer parcial: "))
+segundo_parcial= int(input("Ingrese su nota del segundo parcial: "))
+zona= int(input("Ingrese su zona: "))
+examen_final= int(input("Ingrese su nota del examen final: "))
+calificacion_final= primer_parcial + segundo_parcial + zona + examen_final
+print (nombre)
+print (f"su nota del primer parcial es: {primer_parcial}")
+print (f"su nota del segundo parcial es: {segundo_parcial}")
+print (f"su zona es: {zona}")
+print (f"su nota del examen final es: {examen_final}")
+print (f"su nota final es: {calificacion_final}")

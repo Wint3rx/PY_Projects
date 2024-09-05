@@ -1,0 +1,8 @@
+nombre = input("Ingrese el nombre del alumno: ")
+parcial1 = float(input("Ingrese la nota del primer parcial: "))
+parcial2 = float(input("Ingrese la nota del segundo parcial: "))
+zona = float(input("Ingrese la nota de la zona: "))
+final = float(input("Ingrese la nota del examen final: "))
+nota_final = (parcial1 + parcial2 + zona + final)
+print("Nombre del alumno:", nombre)
+print("Nota final:", nota_final)

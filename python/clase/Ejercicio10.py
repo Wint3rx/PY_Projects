@@ -1,0 +1,12 @@
+nombre1 = input("Ingrese el nombre del primer empleado: ")
+edad1 = int(input("Ingrese la edad del primer empleado: "))
+nombre2 = input("Ingrese el nombre del segundo empleado: ")
+edad2 = int(input("Ingrese la edad del segundo empleado: "))
+nombre3 = input("Ingrese el nombre del tercer empleado: ")
+edad3 = int(input("Ingrese la edad del tercer empleado: "))
+promedio = (edad1 + edad2 + edad3) / 3
+print("Nombres de los empleados:")
+print(nombre1)
+print(nombre2)
+print(nombre3)
+print("Promedio de edades:", promedio)
